@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+.header, .footer {
+    display: flex;
+    background-color: #1f2937;;
+    color: white;
+}
+
+.header {
+    justify-content: space-around;
+}
+
+#head_logo {
+    max-width: 250px;
+}
+
+.left-head {
+    padding: 0;
+}
+
+.right-head {
+    align-items: center;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    padding: 16px;
+    justify-content: center;
+}

@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 }
 
@@ -89,6 +88,13 @@ a {
     text-align: center;
 }
 
+.info_header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
 .info_1 {
     display: flex;
     justify-content: space-evenly;
@@ -118,6 +124,27 @@ a {
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+}
+
+.quote {
+    margin-top: 150px;
+    background-color: #E5E7EB;
+    padding: 80px;
+
+}
+
+.text {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.text .author {
+    text-align: right;
 }
 
 
